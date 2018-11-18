@@ -59,6 +59,7 @@ import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -127,6 +128,7 @@ public class KafkaSinkAndAlertsPublisherTest extends HydratorTestBase {
     zkServer.stopAndWait();
   }
 
+  @Ignore
   @Test
   public void testKafkaSinkAndAlertsPublisher() throws Exception {
     Schema schema = Schema.recordOf(
