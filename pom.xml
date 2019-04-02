@@ -61,6 +61,7 @@
     <netty.version>4.1.16.Final</netty.version>
     <netty-http.version>1.0.0</netty-http.version>
     <main.basedir>${project.basedir}</main.basedir>
+    <sonar.skip>true</sonar.skip>
   </properties>
 
   <dependencies>
