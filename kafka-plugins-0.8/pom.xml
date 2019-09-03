@@ -99,7 +99,7 @@
       <artifactId>cdap-spark-core</artifactId>
       <version>${cdap.version}</version>
       <scope>test</scope>
-    </dependency>-->
+    </dependency>
     <dependency>
       <groupId>co.cask.cdap</groupId>
       <artifactId>cdap-data-pipeline</artifactId>
@@ -111,7 +111,7 @@
       <artifactId>cdap-data-streams</artifactId>
       <version>${cdap.version}</version>
       <scope>test</scope>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>

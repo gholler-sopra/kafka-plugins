@@ -110,7 +110,7 @@
         </exclusion>
       </exclusions>
     </dependency>
-    <dependency>
+    <!--<dependency>
       <groupId>co.cask.cdap</groupId>
       <artifactId>cdap-spark-core2_2.11</artifactId>
       <version>${cdap.version}</version>
@@ -127,7 +127,7 @@
       <artifactId>cdap-data-streams2_2.11</artifactId>
       <version>${cdap.version}</version>
       <scope>test</scope>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
