@@ -27,7 +27,7 @@
   </parent>
 
   <name>Apache Kafka 0;10 plugins</name>
-  <artifactId>kafka-plugins</artifactId>
+  <artifactId>kafka-plugins-0.10</artifactId>
   <packaging>pom</packaging>
 
 

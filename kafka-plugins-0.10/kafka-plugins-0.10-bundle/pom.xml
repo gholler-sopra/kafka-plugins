@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <name>Apache Kafka 0.10 plugins</name>
-  <artifactId>kafka-plugins</artifactId>
+  <artifactId>kafka-plugins-0.10-bundle</artifactId>
   <version>${project.parent.version}-0.10.2.0</version>
 
   <dependencies>
@@ -35,7 +35,7 @@
     <dependency>
       <groupId>co.cask.hydrator</groupId>
       <artifactId>kafka-plugins-0.10-all</artifactId>
-      <version>${parent.version}</version>
+      <version>${parent.version}-0.10.2.0</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
